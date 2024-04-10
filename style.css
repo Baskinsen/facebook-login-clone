@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container { 
+  margin: 0 400px;
+  display: grid;
+  grid-template-columns: 50% 50%;  
+  gap: 100px;
+  height: 100vh;
+  place-items: center;
+}
+
+.discription-section {
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    width: 100%;
+}
+
+body > div > section > h1 {
+  color: rgb(60, 60, 201);
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+body > div > section > p {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+section {
+  display: block;
+}
+
+section:has(.form-container)>p {
+    text-align: center;
+    font-size: 16px;
+}
+
+section:has(.form-container)>p>span {
+    font-weight: bold;
+}
+
+section:has(.form-container) {
+    width: 100%;
+}
+
+.form-container {
+  display: block;
+  box-shadow: 1px 1px 10px 1px #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  
+}
+
+.form-container > form {
+  display: block;
+}
+
+.form-container > form > button {
+  width: 100%;
+  font-size: 20px;
+  background-color: rgb(60, 60, 201);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.form-container> button, a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(60, 60, 201);
+}
+
+.form-container > form > input {
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container > form > input:focus {
+  outline: rgb(60, 60, 201);
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+.create {
+    background-color: rgb(69, 160, 69);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 1px #9c9898 solid;
+}
